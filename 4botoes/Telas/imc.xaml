@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4botoes.Telas.imc"
+             Title="imc">
+    <StackLayout>
+        <Label 
+            Text="Calculo IMC"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry x:Name="valor1" Placeholder="Digite a altura" />
+        <Entry x:Name="valor2" Placeholder="Digite o peso" />
+        <Button Text="Resultado" Clicked="Button_Clicked" />
+        <Label x:Name="tbx_resultado"  FontSize="15"></Label>
+        <Label x:Name="tbx_resultado2"  FontSize="15"></Label>
+    </StackLayout>
+</ContentPage>

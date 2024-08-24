@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4botoes.Telas.calculadora"
+             Title="calculadora">
+    <StackLayout>
+        <Entry x:Name="tbx_2"></Entry>
+        <Entry x:Name="tbx_Resultado"></Entry>
+
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="btn_potenciacao" Text="X²" Clicked="btn_potenciacao_Clicked"></Button>
+            <Button x:Name="btn_divisao" Text="/" Clicked="btn_divisao_Clicked"></Button>
+            <Button x:Name="btn_Apagar_Tudo" Text="C" Clicked="btn_Apagar_Tudo_Clicked"></Button>
+            <Button x:Name="btn_Apagar" Text="AP" Clicked="btn_Apagar_Clicked"></Button>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="btn_7" Text="7" Clicked="btn_7_Clicked"></Button>
+            <Button x:Name="btn_8" Text="8" Clicked="btn_8_Clicked"></Button>
+            <Button x:Name="btn_9" Text="9" Clicked="btn_9_Clicked"></Button>
+            <Button x:Name="btn_mult" Text="X" Clicked="btn_mult_Clicked"></Button>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="btn_4" Text="4" Clicked="btn_4_Clicked"></Button>
+            <Button x:Name="btn_5" Text="5" Clicked="btn_5_Clicked"></Button>
+            <Button x:Name="btn_6" Text="6" Clicked="btn_6_Clicked"></Button>
+            <Button x:Name="btm_Menos" Text="-" Clicked="btm_Menos_Clicked"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="btn_1" Text="1" Clicked="btn_1_Clicked"></Button>
+            <Button x:Name="btn_2" Text="2" Clicked="btn_2_Clicked"></Button>
+            <Button x:Name="btn_3" Text="3" Clicked="btn_3_Clicked"></Button>
+            <Button x:Name="btn_Mais" Text="+" Clicked="btn_Mais_Clicked"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="btn_inverter" Text="-/+" Clicked="btn_inverter_Clicked"></Button>
+            <Button x:Name="btn_0" Text="0" Clicked="btn_0_Clicked"></Button>
+            <Button x:Name="btn_vilgula" Text="," Clicked="btn_vilgula_Clicked" ></Button>
+            <Button x:Name="btn_resultado" Text="=" Clicked="btn_resultado_Clicked"></Button>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

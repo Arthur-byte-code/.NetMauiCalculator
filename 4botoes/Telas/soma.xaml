@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4botoes.Telas.soma"
+             Title="soma">
+    <StackLayout>
+        <Label Text="Soma"  VerticalOptions="Center" HorizontalOptions="Center" />
+        <Entry x:Name="valor1" Placeholder="Digite o primeiro texto" />
+        <Entry x:Name="valor2" Placeholder="Digite o segundo texto" />
+
+        <Button Text="Resultado" Clicked="Button_Clicked" />
+        <Label x:Name="tbx_resultado"  FontSize="15"></Label>
+    </StackLayout>
+</ContentPage>

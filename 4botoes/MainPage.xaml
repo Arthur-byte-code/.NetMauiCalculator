@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4botoes.MainPage">
+
+    <StackLayout>
+        <Button x:Name="BtnSoma" Padding="5" Margin="5" Text="Somar" Clicked="BtnSoma_Clicked"></Button>
+        <Button x:Name="BtnImc" Padding="5" Margin="5" Text="IMC" Clicked="BtnImc_Clicked"></Button>
+        <Button x:Name="BtnMedia" Padding="5" Margin="5" Text="Média" Clicked="BtnMedia_Clicked"></Button>
+        <Button x:Name="BtnCalculadora" Padding="5" Margin="5" Text="Calculadora" Clicked="BtnCalculadora_Clicked"></Button>
+        <Button x:Name="BtnImagem" Padding="5" Margin="5" Text="Imagem" Clicked="BtnImagem_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>

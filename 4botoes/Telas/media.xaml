@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4botoes.Telas.media"
+             Title="media">
+    <VerticalStackLayout>
+        <Label Text="Calculo de Média"  VerticalOptions="Center" HorizontalOptions="Center" />
+        <Entry x:Name="valor1" Placeholder="Digite o primeiro texto" />
+        <Entry x:Name="valor2" Placeholder="Digite o segundo texto" />
+        <Entry x:Name="valor3" Placeholder="Digite o terceiro texto" />
+        <Entry x:Name="valor4" Placeholder="Digite o quarto texto" />
+
+        <Button Text="Resultado" Clicked="Button_Clicked" />
+        <Label x:Name="tbx_resultado"  FontSize="15"></Label>
+    </VerticalStackLayout>
+</ContentPage>
